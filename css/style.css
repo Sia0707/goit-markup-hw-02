@@ -48,7 +48,7 @@ body{
 .navigation .link:hover{
     color: var(--accent-color);
 }
-.contact .link{
+.contacts .link{
     text-decoration: none;
 }
 /* hero */
@@ -68,6 +68,7 @@ body{
     line-height: 1.9;
     background-color: var(--accent-color);
     color: var(--bg-color);
+    cursor: pointer;
 }
 /* main */
 .section-title{
@@ -86,15 +87,16 @@ body{
 /* portfolio */
 
 .potfolio-buttons{
-    background-color: var(--bg-button);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.6;
+    
 }
 .potfolio-buttons .button:focus,
 .potfolio-buttons .button:hover{
     color: var(--bg-color);
     background-color: var(--accent-color);
+    cursor: pointer;
 }
 .table header{
     font-weight: 700;
