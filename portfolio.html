@@ -22,9 +22,11 @@
       >
       <nav>
         <ul class="navigation list">
-          <li><a href="" class="link">Студія</a></li>
+          <li><a href="./index.html" class="link">Студія</a></li>
 
-          <li><a href="./portfolio.html" class="link">Портфоліо</a></li>
+          <li>
+            <a href="./portfolio.html" class="link active-page">Портфоліо</a>
+          </li>
 
           <li><a href="" class="link">Контакти</a></li>
         </ul>
@@ -44,7 +46,9 @@
       <section>
         <h1>Портфоліо</h1>
         <ul class="potfolio-buttons list">
-          <li><button type="button" class="button">Усі</button></li>
+          <li>
+            <button type="button" class="button active-button">Усі</button>
+          </li>
           <li><button type="button" class="button">Веб-сайт</button></li>
           <li><button type="button" class="button">Додатки</button></li>
           <li><button type="button" class="button">Дизайн</button></li>
@@ -73,8 +77,8 @@
               </td>
               <td>
                 <img src="./img/poster.jpg" alt="проект дизайну" width="370" />
-                <h2 class="table text">Постер New Orlean vs Golden Star</h2>
-                <p>Дизайн</p>
+                <h2 class="table header">Постер New Orlean vs Golden Star</h2>
+                <p class="table text">Дизайн</p>
               </td>
             </tr>
           </thead>
@@ -125,28 +129,30 @@
         </table>
       </section>
     </main>
-    <footer>
-      <a href="index.html" class="logo"
+    <footer class="footer">
+      <a href="index.html" class="logo-footer"
         ><span class="accent">Web</span>Studio</a
       >
       <address>
-        <ul class="navigation list">
+        <ul class="navigation-footer list">
           <li>
             <a
               href="https://goo.gl/maps/dw1KgWfuE3nz5GUp7"
               rel="noreferrer noopener"
               target="_blank"
-              class="link"
+              class="adress link"
               >м. Київ, пр-т Лесі Українки, 26</a
             >
           </li>
           <li>
-            <a href="mailto:info@devstudio.com" class="link"
+            <a href="mailto:info@devstudio.com" class="mail-footer link"
               >info@devstudio.com</a
             >
           </li>
           <li>
-            <a href="tel:+380961111111" class="link">+38 096 111 11 11</a>
+            <a href="tel:+380961111111" class="number-footer link"
+              >+38 096 111 11 11</a
+            >
           </li>
         </ul>
       </address>

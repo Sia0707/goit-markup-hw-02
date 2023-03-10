@@ -6,6 +6,9 @@
 /* secondary_bg_color_#2F303A */
 /* bg_potfolio_button: #F5F4FA; */
 
+*:visited{
+    color: var(--text-color);
+}
 :root{
     --bg-color : #FFFFFF;
     --accent-color : #2196F3;
@@ -26,7 +29,7 @@ body{
 /* header */
 
 .logo{
-    font-family: 'Raleway' sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
@@ -35,9 +38,16 @@ body{
     text-decoration: none;
 }
 .accent{
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
     color: var(--accent-color);
 }
-
+.navigation{
+    color: var(--text-color)5;
+}
 .navigation .link{
     font-weight: 500;
     font-size: 14px;
@@ -48,9 +58,22 @@ body{
 .navigation .link:hover{
     color: var(--accent-color);
 }
+
+
 .contacts .link{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    color: #757575;
     text-decoration: none;
 }
+.contacts .link:focus,
+.contacts .link:hover{
+    color: var(--accent-color);
+}
+
+
 /* hero */
 .hero{
     background-color:#2F303A;
@@ -70,7 +93,7 @@ body{
     color: var(--bg-color);
     cursor: pointer;
 }
-/* main */
+/* Studio */
 .section-title{
     font-weight: 700;
     font-size: 14px;
@@ -84,6 +107,10 @@ body{
 .list{
     list-style: none;
 }
+.team-section{
+    background: #F5F4FA;
+}
+
 /* portfolio */
 
 .potfolio-buttons{
@@ -98,6 +125,10 @@ body{
     background-color: var(--accent-color);
     cursor: pointer;
 }
+.active-button{
+    color: var(--bg-color);
+    background-color: var(--accent-color);
+}
 .table header{
     font-weight: 700;
     font-size: 18px;
@@ -108,4 +139,39 @@ body{
     font-size: 16px;
     line-height: 1.9;
     color: var(--secondary-text-color);
+}
+
+.active-page{
+    color: var(--accent-color);
+}
+
+/* footer */
+.footer{
+    background: #2F303A;
+}
+.logo-footer{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color: var(--bg-color);
+    text-decoration: none;
+}
+.navigation-footer{ 
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    text-decoration: none;
+    color: var(--text-color);
+}
+.adress{
+   
+    color: var(--bg-color);
+    text-decoration: none;
+}
+.number-footer,
+.mail-footer{
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
 }
