@@ -6,9 +6,8 @@
 /* secondary_bg_color_#2F303A */
 /* bg_potfolio_button: #F5F4FA; */
 
-*:visited{
-    color: var(--text-color);
-}
+
+
 :root{
     --bg-color : #FFFFFF;
     --accent-color : #2196F3;
@@ -51,7 +50,7 @@ body{
 .navigation .link{
     font-weight: 500;
     font-size: 14px;
-    line-height: 1,1;
+    line-height: 1.1;
     text-decoration: none;
 }
 .navigation .link:focus,
@@ -84,6 +83,7 @@ body{
     line-height: 1.3;
     color: var(--bg-color);
     text-align: center;
+    text-transform: uppercase;
 }
 .hero-button{
     font-weight: 700;
@@ -110,17 +110,25 @@ body{
 .team-section{
     background: #F5F4FA;
 }
+.team-member{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
 
 /* portfolio */
 
-.potfolio-buttons{
+.potfolio-button{
     font-weight: 500;
     font-size: 16px;
     line-height: 1.6;
+    background: #F5F4FA;
     
 }
-.potfolio-buttons .button:focus,
-.potfolio-buttons .button:hover{
+.potfolio-button:focus,
+.potfolio-button:hover{
     color: var(--bg-color);
     background-color: var(--accent-color);
     cursor: pointer;
@@ -129,16 +137,22 @@ body{
     color: var(--bg-color);
     background-color: var(--accent-color);
 }
-.table header{
-    font-weight: 700;
+
+
+.portfolio-exmp-header {
     font-size: 18px;
     line-height: 2;
+    
 }
-.table text{
+.portfolio-exmp-text {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.9;
     color: var(--secondary-text-color);
+   
+}
+.portfolio-exmp .link{
+    text-decoration: none;
 }
 
 .active-page{
@@ -148,6 +162,7 @@ body{
 /* footer */
 .footer{
     background: #2F303A;
+   
 }
 .logo-footer{
     font-family: 'Raleway', sans-serif;
@@ -164,14 +179,17 @@ body{
     line-height: 1.7;
     text-decoration: none;
     color: var(--text-color);
+    font-style: normal;
 }
 .adress{
    
     color: var(--bg-color);
     text-decoration: none;
+    font-style: normal;
 }
 .number-footer,
 .mail-footer{
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
+    font-style: normal;
 }
