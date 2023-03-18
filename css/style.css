@@ -57,6 +57,9 @@ body{
 .navigation .link:hover{
     color: var(--accent-color);
 }
+.nav-link{
+    color: var(--text-color);
+}
 
 
 .contacts .link{
@@ -107,6 +110,14 @@ body{
 .list{
     list-style: none;
 }
+.work, .team{
+    
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
 .team-section{
     background: #F5F4FA;
 }
@@ -153,6 +164,9 @@ body{
 }
 .portfolio-exmp .link{
     text-decoration: none;
+}
+.portfolio-link{ 
+    color: var(--text-color);
 }
 
 .active-page{
